@@ -841,6 +841,7 @@ GameObject:
   - component: {fileID: 1784427238}
   - component: {fileID: 1784427237}
   - component: {fileID: 1784427239}
+  - component: {fileID: 1784427240}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1009,6 +1010,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
+--- !u!114 &1784427240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784427234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771298468bcda774d83c36d7264f3104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseDirectionTracker
 --- !u!1 &1829504767
 GameObject:
   m_ObjectHideFlags: 0
